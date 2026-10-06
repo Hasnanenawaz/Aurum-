@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+.DS_Store
+
+# Runtime data: database + uploaded product photos (back these up, don't commit them)
+data/*
+!data/.gitkeep

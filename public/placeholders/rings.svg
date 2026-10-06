@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Ring illustration">
+<defs><radialGradient id="glow" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#FFF8F0"/><stop offset="1" stop-color="#FBEFE6"/></radialGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E9CF95"/><stop offset=".5" stop-color="#C9A15A"/><stop offset="1" stop-color="#A97E3A"/></linearGradient></defs>
+<rect width="800" height="800" fill="url(#glow)"/>
+<ellipse cx="400" cy="640" rx="210" ry="18" fill="#95464B" opacity=".07"/>
+<g fill="none" stroke="url(#gold)" stroke-linecap="round">
+<ellipse cx="350" cy="450" rx="150" ry="150" stroke-width="22"/>
+<ellipse cx="470" cy="470" rx="125" ry="125" stroke-width="14" opacity=".85"/></g>
+<g transform="translate(350 300)"><path d="M-26 0 L0 -34 L26 0 L0 30Z" fill="#FFFDF8" stroke="#C9A15A" stroke-width="4"/>
+<path d="M-26 0 H26 M0 -34 L-9 0 L0 30 M0 -34 L9 0 L0 30" stroke="#E2C88F" stroke-width="2" fill="none"/></g>
+</svg>
