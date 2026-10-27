@@ -10,3 +10,6 @@ npm-debug.log*
 # Runtime data: database + uploaded product photos (back these up, don't commit them)
 data/*
 !data/.gitkeep
+
+.vercel
+.env*

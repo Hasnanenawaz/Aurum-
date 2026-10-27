@@ -307,7 +307,7 @@ function ProductForm({ initial, onClose, onSaved }) {
             <input type="file" accept="image/jpeg,image/png,image/webp" multiple hidden onChange={upload} disabled={uploading} />
           </label>
         </div>
-        <span className="muted" style={{ fontSize: '0.8rem' }}>JPG, PNG or WebP, up to 5 MB. The first photo is the cover.</span>
+        <span className="muted" style={{ fontSize: '0.8rem' }}>JPG, PNG or WebP, up to 4 MB. The first photo is the cover.</span>
       </div>
 
       <div className="field">

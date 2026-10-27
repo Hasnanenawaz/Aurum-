@@ -7,6 +7,8 @@ const nextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     // Uploaded photos come from our own /api/uploads route.
     localPatterns: [{ pathname: '/api/uploads/**' }, { pathname: '/placeholders/**' }, { pathname: '/brand/**' }],
+    // On Vercel, uploads live in Vercel Blob.
+    remotePatterns: [{ protocol: 'https', hostname: '*.public.blob.vercel-storage.com', pathname: '/products/**' }],
   },
   async headers() {
     return [
